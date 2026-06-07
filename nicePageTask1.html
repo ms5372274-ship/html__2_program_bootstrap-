@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+
+        .body{
+            margin: 0px;
+            padding: opx;
+        }
+        .sec1{
+            width: 100%;
+            height: 600px;
+            background-color: #F2F2F2;
+           /*  background-color: aqua; */
+        }
+
+        .sec1innerbox1{
+            width: 45%;
+            height: 600px;
+           /*  background-color: blue; */
+            float: left;
+           /*  font-size: 35px; */
+        }
+
+        .sec1innerbox2{
+            width: 55%;
+            height: 600px;
+            background-image: url(./ggg-min.jpg);
+         /*    background-color: lawngreen; */
+            float: left;
+            background-size: cover;
+            background-repeat: no-repeat;  
+        }
+
+        .sec1bag1{
+            width: 100%;
+            height: 400px;
+           /*  background-color: aqua; */
+            padding: 100PX;
+            box-sizing: border-box;
+            position: relative;
+            left: 60px;
+        } 
+        
+        .company-heading{
+            font-size: 50px;
+            text-transform: uppercase;
+        }
+
+        .pri-heading{
+            font-size: 20px;
+            letter-spacing: 10px;
+        
+        }
+
+        .btn{
+            background-color: black;
+            padding: 10PX 30PX;
+            color: white;
+            font-size: 20PX;
+            font-weight: bolder;
+            border:  none
+        }
+
+        .btn:hover{
+            background-color: #FB6E42;
+            padding: 10PX 30PX;
+            color: white;
+            font-size: 20PX;
+            font-weight: bolder;
+            border:  none
+        }
+
+        .sec2{
+            width: 100%;
+            height: 120vh;
+            background-color: #FB6E42;
+            background-image: linear-gradient(to bottom, #FB6E42 0% 50%, #F2F2F2 50% )
+
+        }
+        .company-heading2{
+            font-size: 50px;
+            text-align: center;
+           /*  font-weight: bolder; */
+            color: white;
+           /*  text-transform: uppercase; */
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .sec2inner1{
+            width:250px ;
+            height: 400px;
+            background-color: #F2F2F2;
+            float: left;
+            margin: 30px;
+           /*  text-align: center; */
+             padding: 30px;
+            box-sizing: border-box; 
+            box-shadow: 0px 0px 8px 1px rgb(197, 197, 197);
+            position: relative;
+            top: 60px;
+            
+        }
+
+        .sec2inner2{
+            width:250px ;
+            height: 400px;
+            background-color: #F2F2F2;
+            float: left;
+            margin: 30px;
+           /*  text-align: center; */
+             padding: 30px;
+            box-sizing: border-box; 
+             box-shadow: 0px 0px 8px 1px rgb(197, 197, 197);
+            
+        }
+
+        .sec2inner3{
+            width:250px ;
+            height: 400px;
+            background-color: #F2F2F2;
+            float: left;
+            margin: 30px;
+           /*  text-align: center; */
+             padding: 30px;
+            box-sizing: border-box; 
+             box-shadow: 0px 0px 8px 1px rgb(197, 197, 197);
+             position: relative;
+             top: 60px;
+            
+        }
+
+        .sec2inner4{
+            width:250px ;
+            height: 400px;
+            background-color: #F2F2F2;
+            float: left;
+            margin: 30px;
+           /*  text-align: center; */
+             padding: 30px;
+            box-sizing: border-box; 
+             box-shadow: 0px 0px 8px 1px rgb(197, 197, 197);
+            
+        }
+
+        .innersec2outerbox{
+            width: 100%;
+            height: 400px;
+            margin: auto;
+            padding: 30px;
+            box-sizing: border-box;
+            
+            /* background-color: aqua; */
+        }
+
+        .sec2inner1 p, .sec2inner2 p, .sec2inner3 p, .sec2inner4 p, .sec4 p {
+            color: darkgray;
+            font-family: "Edu TAS Beginner", cursive;
+            font-optical-sizing: auto;
+           /*  font-weight: weight; */
+           /*  font-style: normal;   */
+        }
+
+        .boxheading{
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            
+        }
+
+        .iconbox, .iconbox2{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #FB6E42;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .iconbox2{
+            background-color: gray;
+        }
+
+        .sec3{
+            width: 100%;
+            height: 130vh;
+            background-color: #F2F2F2;
+           /*  background-color: aqua; */
+            float: left;
+        }
+
+        .sec3box1{
+            width: 50%;
+            height:130vh ;
+             background-image: url(./78mirl\ img..jpg);
+             background-size: 100% 100%;
+            /* background-color: rgb(97, 30, 160); */
+            float: left;
+        }
+
+        .sec3box2{
+            width: 50%;
+            height:130vh ;
+            /* background-color: rgb(97, 30, 160); */
+            float: left;
+            padding: 30px;
+            box-sizing: border-box;
+           
+
+        }
+
+        .paragraph{
+            color: gray;
+            font-family: "Edu TAS Beginner", cursive;
+            font-optical-sizing: auto;
+            font-size: 30px;
+            padding-top: 0px;
+            box-sizing: border-box;
+        }
+
+        .sec4{
+            width: 100%;
+            height: auto;
+            text-align: center;
+            padding: 20px 350px;
+            box-sizing: border-box;
+            
+        }
+
+        .paragraph1{
+              color: gray;
+            font-family: "Edu TAS Beginner", cursive;
+            font-optical-sizing: auto;
+            font-size: 20px;
+            box-sizing: border-box;
+        }
+
+        .sec5{
+            width: 100%;
+            height: auto;
+
+         }
+
+        .sec5box1{
+             width: 330%;
+            height:auto ;
+             background-color: rgb(97, 30, 160);
+             background-size: 100% 100%;
+            float: left;
+
+        }
+        
+         .sec5box2{
+             width: 330%;
+            height:auto ;
+             background-color: rgb(230, 23, 185);
+             background-size: 100% 100%;
+            float: left;
+
+        }
+
+         .sec5box3{
+             width: 330%;
+            height:auto ;
+             background-color: rgb(230, 23, 185);
+             background-size: 100% 100%;
+            float: left;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="sec1">
+        <div class="sec1innerbox1 ">
+            <div class="sec1bag1">
+                <h4 class="pri-heading" > consulting company </h4>
+                <h1 class="company-heading"> BUSSNESS <br> TAKEN TO  THE <br> NEW HEIGHT </h1>
+                <p>Image from <a style="color: black;" href="./ggg-min.jpg">Freepic </a> </p>
+                <button class="btn">Read more</button>
+            </div>  
+        </div>
+        <div class="sec1innerbox2 "></div>
+    </div>
+
+    <div class="sec2"> 
+            <br>
+            <br>
+        <div class="company-heading2">  we advise organizations in value  <br>creation strategies</div>
+        <div class="innersec2outerbox">
+            
+            <div class="sec2inner1">
+                <div class="iconbox">
+<i class="fa fa-lightbulb-o" style="font-size:50px; color: white;"></i>
+                </div>
+            <h3 class="boxheading">STRATEGY</h3>
+            <P >Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</P>
+            <a href="" style="font-size: 20px; color: black;">More</a>
+        </div>
+        <div class="sec2inner2">
+            <div class="iconbox2" >
+            <i class="fa fa-microphone" style="font-size:50px; color: white;"></i>
+            </div>
+            <h3 class="boxheading">RESULTS </h3>
+            <P >Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</P>
+            <a href="" style="font-size: 20px; color: black;">More</a>
+        </div>
+        <div class="sec2inner3">
+            <div class="iconbox">
+<i class="fa fa-diamond" style="font-size:50px; color: white;"></i>
+            </div>
+           <h3 class="boxheading"> EXPERTISE</h3>
+           <P >Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</P>
+           <a href="" style="font-size: 20px; color: black;">More</a>
+        </div>
+        <div class="sec2inner4">
+            <div class="iconbox2">
+<i class="fa fa-user" style="font-size:50px; color: white;"></i>
+            </div>
+            <h3 class="boxheading">SUPPORT</h3>
+            <P >Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</P>
+            <a href="" style="font-size: 20px; color: black;">More</a>
+
+
+        </div>
+        </div> 
+    </div>
+
+    <div class="sec3">
+        <div class="sec3box1"></div>
+        <div class="sec3box2">
+            <h4 class="pri-heading">What We Do</h4>
+            <h1 class="company-heading">We help coaches, consultants,<br> course creators</h1>
+            <br>
+            <p  class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p >
+            <h4>Image from </h4>
+            <button class="btn">Read more</button>
+        </div>
+    </div>
+
+    <div class="sec4">
+    
+        <h1 class="company-heading">consulting Services</h1>
+        <p  class="paragraph1">Our management consulting services focus on our clients' most critical issues and opportunities.  Image from</p>
+        
+    </div>
+
+    <div class="sec5">
+        <div class="sec5box1">
+            <h1 class="company-heading">1. Design</h1>
+        </div>
+        <div class="sec5box2"></div>
+        <div class="sec5box3">
+            <h1>1. Design</h1>
+        </div>
+    </div>
+</body>
+</html>
