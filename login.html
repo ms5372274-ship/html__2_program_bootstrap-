@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body {
+            background-image: url(./depositphotos_645063666-stock-photo-abstract-background-air-bubbles-wallpaper.jpg); /* yahan apni image ka naam/URL daalo */
+            background-repeat: no-repeat;
+            background-size: cover;  /* screen ke hisaab se fit karega 
+            background-position: center; */
+        }
+        .box{
+            width: 400px;
+            height: 450px;
+            margin: auto;
+           /* background-color:rgb(183, 176, 189, 0.5); */
+            margin-top:60px ;
+            backdrop-filter: blur(10px);
+           /* -webkit-backdrop-filter: blur(10px); */
+           border-radius: 20px;
+           box-shadow:  0px 0px 30px 10px rgb(red, green, blue 0.15) ;
+         /*  color: white; */
+
+            
+        }
+
+        input{
+            padding: 10px;
+            outline: none;
+            border: none;
+            background-color: transparent;
+            border-bottom: 2px  solid white;
+            border-radius: 5px;
+            color: white;
+
+        }
+
+        input::placeholder {
+            color: white;
+        }
+        .btn{
+            color: white;
+            background-color: transparent;
+            padding: 10px 55px;
+            border:2px solid white;
+            border-radius: 5px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <center> <br> <br> 
+            <img src="./parrot.jpg" width="100px" alt=""> 
+            <h1 style="color: white;">Login</h1>
+            <br>
+            <br>
+            <input type="text" name="" placeholder="Name " id="">
+            <br>
+            <br>
+            <input type="text" name="" placeholder="Email " id="">
+            <br>
+            <br>
+            <br>
+            <button class="btn"> Submit Info</button>
+
+        </center>
+    </div>
+</body>
+</html> 

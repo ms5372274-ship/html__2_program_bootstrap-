@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            font-family: "Dancing Script", cursive !important;
+            font-optical-sizing: auto !important;
+            font-style: normal !important;
+        }
+
+        .img-bg {
+            background-color: #F7F8FA;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-dark container-fluid p-4 position-sticky top-0 z-3">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="#">Navbar</a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="./bootstrap2.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-light" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle  text-light" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item " href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- <nav class="navbar navbar-expand-lg bg-light container-fluid p-4 position-sticky top-0 z-3">
+        <div class="container-fluid">
+            <a class="navbar-brand text-dark" href="#">Redmi Note 14 Pro 5G</a>
+            <div class="" id="navbarSupportedContent">
+                <div class="d-flex justify-content-center">
+                    <div>
+                        <ul class="navbar-nav me-auto mt-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-dark" aria-current="page" href="#">Overview
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  text-dark" href="#">Specs
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link  text-dark" href="#">Reviews
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  text-dark" href="#">FAQ
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <span class=" mt-2 text-dark">Price : 210000/-</span>
+
+                        <button class="btn btn-outline-dark text-nowrap" type="submit">Add To Cart</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+    </nav> -->
+
+    <div class="row">
+        <div class="col-12 text-center">
+            To facilitate your purchase, please Login sooner the better!
+        </div>
+    </div>
+    <div class="container boxContainer">
+        <div class="row">
+            <div class="col-sm-12 col-md-7 col-lg-6 col-xl-6 col-xxl-6 img-bg position-sticky top-0"
+                style="height: 600px;">
+                <div class="col-12 p-5 d-flex justify-content-center ">
+                    <div id="carouselExampleInterval" class="carousel slide my-2" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <center>
+                                    <img src="./4bf726fcdff0279a45b20c0f25ba558b.png" class="d-block w-75" alt="...">
+                                </center>
+
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <center>
+                                    <img src="./93e5182d31c3d758818913c9a16cf6a0.png" class="d-block w-75" alt="...">
+                                </center>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="10000">
+                                <center>
+                                    <img src="./4bf726fcdff0279a45b20c0f25ba558b.png" class="d-block w-75" alt="...">
+                                </center>
+
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12 w-25 mb-5  m-auto">
+                    <div class="d-flex justify-content-center">
+                        <span class="d-block">
+                            <img width="30%" class="border border-danger rounded-2"
+                                src="https://i03.appmifile.com/509_item_in/17/04/2025/029a26d5860e9e35a4af121367f8510a.jpg?thumb=1&f=webp&q=85"
+                                alt=""></span>
+                        <span class="d-block">
+                            <img width="30%" class="border border-danger rounded-2"
+                                src="https://i03.appmifile.com/335_item_in/17/04/2025/1234c3076ae8e91cde5d58a84d89de6d.jpg?thumb=1&f=webp&q=85">
+                        </span>
+
+                        <span class="d-block">
+                            <img width="30%" class="border border-danger rounded-2"
+                                src="https://i03.appmifile.com/553_item_in/17/04/2025/b9d3769a7e678b65d34b0b0c501291c7.jpg?thumb=1&f=webp&q=85"
+                                alt=""></span>
+
+                        <span class="d-block">
+                            <img width="30%" class="border border-danger rounded-2"
+                                src="https://i03.appmifile.com/553_item_in/17/04/2025/b9d3769a7e678b65d34b0b0c501291c7.jpg?thumb=1&f=webp&q=85"
+                                alt=""></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-5 col-lg-6 col-xl-6 col-xxl-6">
+                <div class="row container">
+                    <div class="col-12 d-flex">
+                        <h1><span style="color: rgb(255, 105, 0);">₹19,999</span> </h1><del
+                            class="text-secondary mt-3">₹24,999</del>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-outline-dark rounded-5"><i class="fa fa-exchange"
+                                style="font-size:24px"></i></button><b class="ms-3">Exchange</b> <span>Extra Bonus
+                            > </span>
+                    </div>
+                    <div class="col-12 mt-2">
+                        <button class="btn btn-outline-dark rounded-5"><i class="fa fa-exchange"
+                                style="font-size:24px"></i></button>
+
+                        <b class="ms-3">
+                            Earn 1X Mi Points Get up to 199 Mi Points >
+                        </b>
+                        <p class="text-secondary mt-3">* Activity subject to final payment price!</p>
+                    </div>
+
+                    <div class="col-12 mt-5 bg-light rounded-4">
+                        <h3>Offers</h3>
+
+                        <div class="row">
+                            <div class="col-10">
+                                <p>Flat ₹2,000 Off on ICICI Credit Card & Credit Card EMI</p>
+                                <p>Get 3 Months of Spotify Premium</p>
+                            </div>
+                            <div class="col-2"><a class="text-nowrap">Learn More</a></div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 mt-5 rounded-4">
+                        <h3>Color</h3>
+                        <div class="row">
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+                                <button class="btn btn-outline-warning w-100 p-3">Gold</button>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+                                <button class="btn btn-outline-secondary  w-100 p-3">Silver</button>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+                                <button class="btn btn-outline-primary  w-100 p-3">Sky</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 mt-5 rounded-4">
+                        <h3>Storage</h3>
+                        <div class="row">
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+                                <button class="btn btn-outline-warning w-100 p-3">6GB + 128GB</button>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+                                <button class="btn btn-outline-secondary  w-100 p-3">6GB + 128GB</button>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+                                <button class="btn btn-outline-primary  w-100 p-3">6GB + 128GB</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-12 mt-5 rounded-4">
+                        <h3>Mi Exchange</h3>
+                    </div>
+
+                    <div class="col-12  bg-light rounded-4">
+                        <div class="row">
+                            <div class="col-10">
+                                <p>Flat ₹2,000 Off on ICICI Credit Card & Credit Card EMI</p>
+                                <p>Get 3 Months of Spotify Premium</p>
+                            </div>
+                            <div class="col-2"><a class="text-nowrap">Learn More</a></div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-12 mt-5 rounded-4">
+                        <h3>Mi Protection</h3>
+                    </div>
+
+                    <div class="col-12  bg-light rounded-4">
+                        <div class="row">
+                            <div class="col-10">
+                                <p>Flat ₹2,000 Off on ICICI Credit Card & Credit Card EMI</p>
+                                <p>Get 3 Months of Spotify Premium</p>
+                            </div>
+                            <div class="col-2"><a class="text-nowrap">Learn More</a></div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-12  bg-light rounded-4">
+                        <div class="row">
+                            <div class="col-10">
+                                <p>Flat ₹2,000 Off on ICICI Credit Card & Credit Card EMI</p>
+                                <p>Get 3 Months of Spotify Premium</p>
+                            </div>
+                            <div class="col-2"><a class="text-nowrap">Learn More</a></div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 mt-5 rounded-4">
+                        <div class="row">
+                            <div class="col-9">
+                                <b>Redmi Note 15 SE 5G Crimson Reserve 6 GB + 128 GB</b>
+                                <p>Get 3 Months of Spotify Premium</p>
+                            </div>
+                            <div class="col-3">
+                                <b></b>₹19,999. <del>₹24,999</del>
+                                <div>
+                                    <h1>- <button class="btn btn-secondary">1</button> +</h1>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="row">
+                            <div class="col-9">
+                                <h1>Total</h1>
+                            </div>
+                            <div class="col-3">
+                                <h1>₹19,999</h1>
+                            </div>
+                        </div>
+                        <p>Sold by: Xiaomi Technology India Private Limited</p>
+                        <div class="row">
+                            <div class="col-12">
+                                <button class="btn btn-outline-dark w-100">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
