@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"/>
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Story+Script&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+      <style>
+        *{
+       font-family: "Story Script", sans-serif;
+       font-weight: 400;
+       font-style: normal;
+       }
+
+       .img-bg{
+        background-color: #F7F8FA;
+       }
+      </style>
+  </head>
+  <body>
+
+
+    <nav class="navbar navbar-expand-lg bg-dark  p-4 sticky-top z-3">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light" href="#">Navbar</a>
+        <button
+          class="navbar-toggler bg-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-light"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled text-light" aria-disabled="true"
+                >Disabled</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>  
+    
+
+
+    <nav class="navbar navbar-expand-lg bg-light  p-4 top-0 position-sticky z-3 ">
+      <div class="container-fluid">
+        <a class="navbar-brand text-dark" href="#">Redmi Note 15 5G Special Edition</a>
+        <button
+          class="navbar-toggler bg-darktext-dark"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-dark" aria-current="page" href="#"
+                >Overview
+</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Specs</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Review(3)
+</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">FAQ</a>
+            </li>
+    
+          </ul>
+
+
+          <div class="d-flex" role="search">
+            <span class="me-5 mt-2 text-dark ">Price : 37,999/- </span>
+
+            <button class="btn btn-outline-dark  rounded-5 " type="submit" >Add To Cart</button>
+          </div>
+        </div>
+      </div>
+    </nav> 
+
+
+    <div class="row">
+      <div class="col-12 text-center">
+        To facilitate your purchase, please Login sooner the better!
+      </div>
+    </div>
+
+    <div class="container boxcontainer ">
+       <div class="row">
+    <div class="col-sm-12 col-md-7 col-lg-6 col-xl-6 col-xxl-6 img-bg position-sticky top-0" style="height:600px;">
+         <div class="col-12 p-5 d-flex justify-content-center ">
+        <div id="carouselExampleInterval"  class="carousel slide my-2"  data-bs-ride="carousel">
+         <div class="carousel-inner">
+           
+        <div class="carousel-item active" data-bs-interval="10000">
+          <center>
+          <img src="./slider1.webp" class="d-block w-75" alt="..." />
+          </center>
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <center>
+          <img src="./slider2.png" class="d-block w-75" alt="..." />
+          </center>
+         
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <center>
+          <img src="./slider4.png" class="d-block w-75" alt="..." />
+          </center>
+         
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <center>
+          <img src="./slider5.jpg" class="d-block w-75" alt="..." />
+          </center>
+          
+        </div>
+        <div class="carousel-item" data-bs-interval="10000">
+          <center>
+          <img src="slider3.jpg" class="d-block w-75" alt="..." />
+          </center>
+        </div>
+          
+        <div class="carousel-item" data-bs-interval="10000">
+          <center>
+          <img src="slider6.jpg" class="d-block w-75" alt="..." />
+          </center>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="10000">
+          <center>
+          <img src="https://i03.appmifile.com/36_item_in/31/03/2026/db6ce1d2efbae5fa48c90c3e3237e2c4.png?thumb=1&f=webp&q=85" class="d-block w-75" alt="..." />
+          </center>
+        </div>
+
+       </div>
+       <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev">
+
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+       </button>
+       <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+       </button>
+        </div>
+       </div>
+       <div class="col-12  mb-5 m-auto">
+        <div class="d-flex justify-content-center ">
+          <span class="d-block "><img src="slider1.webp"alt="" width="80%" class="border border-dark rounded-1"></span>
+          <span class="d-block "><img src="slider2.png" alt="" width="80%" class="border border-dark rounded-1"></span>
+          <span class="d-block "><img src="slider4.png" alt="" width="80%" class="border border-dark rounded-1"></span>
+          <span class="d-block "><img src="slider5.jpg" alt="" width="80%" class="border border-dark rounded-1"></span>
+          <span class="d-block "><img src="slider3.jpg" alt="" width="80%" class="border border-dark rounded-1"></span>
+          <span class="d-block "><img src="slider6.jpg" alt="" width="80%" class="border border-dark rounded-1"></span>
+          <span class="d-block "><img src="https://i03.appmifile.com/36_item_in/31/03/2026/db6ce1d2efbae5fa48c90c3e3237e2c4.png?thumb=1&f=webp&q=85"alt="" width="80%" class="border border-dark rounded-1"></span>
+
+
+        </div>
+       </div>
+      </div>
+
+      <div class="col-sm-12 col-md-5 col-lg-6 col-xl-6 col-xxl-6">
+        <div class="row container">
+          <div class="class col-12 d-flex">
+            <h1><span style="color: #FF6900;">₹19,999</span></h1>
+            <del class="text-secondary" >₹24,999</del>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-outline-dark rounded-5"><i class="fa fa-exchange"  style="font-size:20px"></i></button>
+            <b class="ms-3">Exchange </b> <span>Extra Bonus > </span>
+          </div>
+
+          <div class="col-12 mt-2">
+            <button class="btn btn-outline-dark rounded-5"><i class="fa fa-exchange"  style="font-size:20px"></i></button> 
+            <b class="ms-3"> Earn 1X Mi Points  </b> <span>Get up to 199 Mi Points ></span>
+            <p class="text-secondary mt-3"> * Activity subject to final payment price!</p>
+          </div>
+          <div class="col-12 mt-5 bg-light rounded-4">
+            <h3>Offers</h3>
+              <div class="row">
+               <div class="col-10">
+              <p>Flat ₹2,000 Off on ICICI Credit Card & Credit Card EMI</p>
+               <p>Get 3 Months of Spotify Premium</p>
+             </div>
+              <div class="col-2"><a class="text-nowrap">Learn More</a></div>
+               </div>
+               <div class="row">
+                <div class="col-10">
+                  <p>Get up to ₹2500 cashback on transactions using MobiKwik UPI</p>
+                </div>
+               <div class="col-2"><a class="text-nowrap">Learn More</a></div>
+             </div>
+             </div>
+
+             <div class="col-12 mt-4 rounded-4">
+              <h3>Color</h3>
+              <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+                   <button class="btn btn-outline-warning w-100 p-3">Gold</button>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+                  <button class="btn btn-outline-secondary w-100 p-3">Silver</button>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+                  <button class="btn btn-outline-primary w-100 p-3">Sky</button>
+                </div>
+                            
+              </div>
+             </div>
+             <div class="col-12 mt-5 rounded-4">
+                 <h3>Storage</h3>
+                 <div class="row">
+                  <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+                      <button class="btn btn-outline-warning w-100 p-3">6GB + 128GB</button>
+                  </div>
+                  <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+                    <button class="btn btn-outline-secondary  w-100 p-3">6GB + 128GB</button>
+                  </div>
+                   <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+                     <button class="btn btn-outline-primary  w-100 p-3">6GB + 128GB</button>
+                    </div>
+                  </div>
+               </div>
+
+               <div class="col-12 mt-5 rounded-4">
+                 <h3>Mi Exchange</h3>
+               </div>
+
+                <div class="col-12  bg-light rounded-4">
+                  <div class="row">
+                    <div class="col-10">
+                      <p>Exchange your old phone.Get a new smartphone at a lower price. T&C></p>
+                      </div>
+                      <div><a class="text-nowrap" style="color: #FF6900;">Extra Bonus</a></div>
+                </div>
+              </div>
+
+              <div class="col-12 mt-5 rounded-4">
+                 <h3>Mi Protection</h3>
+               </div>
+
+                <div class="col-12  bg-light rounded-4">
+                  <div class="row">
+                    <div class="col-10">
+                      <h6> Mi Complete Protect > </h6>
+                      <h6>₹1,649 <del>₹1,999</del> ( 1 Year )</h6>
+                      </div>
+                      <div><a class="text-nowrap" style="color: #FF6900;">Extra Bonus</a></div>
+                </div>
+
+                    </div>
+
+              
+
+             <div class="col-12 mt-5 rounded-4"></div>
+
+              <div class="col-12  bg-light rounded-4">
+                <div class="row">
+                     <div class="col-10">
+                      <h6>Mi Complete Protect > </h6>
+                      <h6>₹1,649  ( 1 Year )</h6>
+                      </div>
+                      <div><a class="text-nowrap" style="color: #FF6900;">Extra Bonus</a></div>
+                 </div> 
+              </div>
+              <div class="col-12 mt-5 rounded-4"></div>
+
+               <div class="col-12  bg-light rounded-4">
+                <div class="row">
+                     <div class="col-9">
+                      <b>Redmi Note 15 SE 5G Crimson Reserve 6 GB + 128 <br>GB </b>
+                      <br><br>
+                      <p></p>
+                      </div>
+                      <div class="col-3 ">
+                       <b></b>₹19,999. <del>₹24,999</del>
+                       <div class="d-flex align-items-center gap-3">
+                             <button class="btn btn-dark">-</button> 
+                             <span class="fs-5"> 1</span>
+                             <button class="btn btn-dark">+</button>
+
+                         </div>
+                      </div>
+                 </div>
+
+                 <hr>
+
+                 <div class="row">
+                  <div class="col-9">
+                    <h1>Total</h1>
+                  </div>
+                  <div class="col-3">
+                    <h1>19,999</h1>
+                  </div>
+                 </div>
+                  <p>Sold by: Xiaomi Technology India Private Limited</p>
+                  <div class="col-12">
+                    <button class="btn btn-dark rounded-3 w-100">Add to Cart</button>
+                 </div>
+
+                 <br><br>
+
+                 <div class="col-12">
+                  <h4>Delivery method</h4>
+                  <p>2-5 days FREE delivery <br>Door-to-door standard delivery</p>
+                  <a class="text-nowrap" style="color: #FF6900;" href="#">Check at your place</a>
+                 </div>
+
+                 <br>
+
+                 <div>
+                  <h4>After-sale</h4>
+                  <p>10 days replacement for manufacturing problems</p>
+                 </div>
+
+                 <div>
+                  <h4>Payment methods</h4>
+                  <p>Safe & Secure checkout. Easy and Fast</p>
+                 </div>
+
+
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row ">
+        <div class="my-3  col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+          <div class="card shadow" w-100>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-2">
+                  <button class="btn btn-outline-danger text-nowrap">20% off </button>
+                </div>
+             </div>
+             <div class="row my-2">
+               <div class="col-12 text-center">
+                <h3>Redmi Note 15 Pro 5G</h3>
+               </div>
+                <div class="col-12 my-2 text-center ">
+                 <p class="fs-5"> From ₹29,999 <span class="text-secondary"> <del> ₹33,999 </del> </span></p>
+                </div>
+              </div>
+              <div class="row my-2 text-center">
+                <div class="col-6"> <button class=" btn btn-dark text-nowrap rounded-4">By Now</button> </div>
+                <div class="col-6"><a href="./Product-details.html"> <button class=" btn btn-outline-dark  rounded-4">Learn More </button>
+                </a> </div>
+              </div>
+              <img src="./mobail-xiaomi-2.webp"  class="card-img-top "   alt="..."/>
+            </div>
+          </div>
+        </div>
+
+        <div class="my-3  col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+          <div class="card shadow" w-100>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-2">
+                  <button class="btn btn-outline-danger text-nowrap">60% off </button>
+                </div>
+             </div>
+             <div class="row my-2">
+               <div class="col-12 text-center">
+                <h3>Xiaomi Compact Power </h3>
+               </div>
+                <div class="col-12 my-2 text-center ">
+                 <p class="fs-5"> From ₹19,999 <span class="text-secondary"> <del> ₹49,999 </del> </span></p>
+                </div>
+              </div>
+              <div class="row my-2 text-center">
+                <div class="col-6"> <button class=" btn btn-dark text-nowrap rounded-4">By Now</button> </div>
+                <div class="col-6"><a href="./Product-details.html"> <button class=" btn btn-outline-dark  rounded-4">Learn More </button>
+                </a> </div>
+              </div>
+              <img src="https://i03.appmifile.com/445_item_in/07/07/2025/f411708b3ad72f14052c58b030a61bc7.png?thumb=1&w=186&f=webp&q=85"  class="card-img-top "   alt="..."/>
+            </div>
+          </div>
+        </div>
+
+        <div class="my-3  col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+          <div class="card shadow" w-100>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-2">
+                  <button class="btn btn-outline-danger text-nowrap">17% off </button>
+                </div>
+             </div>
+             <div class="row my-2">
+               <div class="col-12 text-center">
+                <h3>Xiaomi 17 Ultra</h3>
+               </div>
+                <div class="col-12 my-2 text-center ">
+                 <p class="fs-5"> From ₹1,39,999 <span class="text-secondary"> <del> ₹1,69,999 </del> </span></p>
+                </div>
+              </div>
+              <div class="row my-2 text-center">
+                <div class="col-6"> <button class=" btn btn-dark text-nowrap rounded-4">By Now</button> </div>
+                <div class="col-6"><a href="./Product-details.html"> <button class=" btn btn-outline-dark  rounded-4">Learn More </button>
+                </a> </div>
+              </div>
+              <img src="https://i03.appmifile.com/174_item_in/18/03/2026/9cd3d90465192956e713ff15e1a5eb0c.png?thumb=1&w=186&f=webp&q=85"  class="card-img-top "   alt="..."/>
+            </div>
+          </div>
+        </div>
+
+
+        
+
+
+        <div class="my-3  col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+          <div class="card shadow" w-100>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-2">
+                  <button class="btn btn-outline-danger text-nowrap">20% off </button>
+                </div>
+             </div>
+             <div class="row my-2">
+               <div class="col-12 text-center">
+                <h3>Redmi Note 15 Pro 5G</h3>
+               </div>
+                <div class="col-12 my-2 text-center ">
+                 <p class="fs-5"> From ₹29,999 <span class="text-secondary"> <del> ₹33,999 </del> </span></p>
+                </div>
+              </div>
+              <div class="row my-2 text-center">
+                <div class="col-6"> <button class=" btn btn-dark text-nowrap rounded-4">By Now</button> </div>
+                <div class="col-6"><a href="./Product-details.html"> <button class=" btn btn-outline-dark  rounded-4">Learn More </button>
+                </a> </div>
+              </div>
+              <img src="https://i03.appmifile.com/765_item_in/27/08/2024/b8cbe48735ee87f61b466ff480ef33f7.png?thumb=1&w=186&f=webp&q=85"  class="card-img-top "   alt="..."/>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-12 ">
+        <img src="https://i02.appmifile.com/mi-com-product/fly-birds/redmi-note-15-se-5g/pc/screen01_landing_bg.webp" width="100%" alt="">
+      </div>
+    </div>
+
+    <div class="row" >
+      <div class="col-12  text-center my-5 fs-5  mt-0 "  >
+        <h1 style="color: #9E0714;"  >What Makes It Special</h1>
+      </div>
+    </div>
+
+    <div class="row container m-auto">
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-3 ">
+        <img src="https://i02.appmifile.com/mi-com-product/fly-birds/redmi-note-15-se-5g/pc/screen02_ksp_card_left.webp" width="100%" alt="">
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-3 " >
+        <img src="https://i02.appmifile.com/mi-com-product/fly-birds/redmi-note-15-se-5g/pc/screen02_ksp_card_top_right.webp" width="100%" alt="">
+        <img src="https://i02.appmifile.com/mi-com-product/fly-birds/redmi-note-15-se-5g/pc/screen02_ksp_card_bottom_right.webp" width="100%" class="mt-2"  alt="">
+       </div>
+      </div>
+
+      <div class="row">
+          <div class="col-12 my-3">
+            <video id="video" src="./slied vieo2.mp4 " controls muted loop autoplay width="100%" ></video>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class=" col-12">
+            <img src="https://i02.appmifile.com/mi-com-product/fly-birds/redmi-note-15-se-5g/pc/screen04_bg_1_788.webp" width="100%" alt="">
+          </div>
+        </div>
+
+         <div class="row">
+          <div class=" col-12">
+            <img src="https://i02.appmifile.com/mi-com-product/fly-birds/redmi-note-15-se-5g/pc/screen05_bg_1_756.webp" width="100%" alt="">
+            <img src="https://i02.appmifile.com/mi-com-product/fly-birds/redmi-note-15-se-5g/pc/c0a225b819a245218cac1dd4364f43d0_1x.webp" width="100%" alt="">
+          </div>
+        </div>
+   
+
+    
+    
+
+   
+
+
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
